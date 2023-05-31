@@ -6,13 +6,35 @@
     line-height: 132%;
 }
 
-arqInterior, p{
+#arqInterior, p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 132%;
 }
+
+#arqServ, h2{
+    font-family: 'Poppins';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 132%;
+    color: #815757;
+}
+
+#arqServ, h3{
+    font-family: 'Poppins';
+    font-size: 34px;
+    color: black;
+}
+
+#texto, p{
+    font-family: 'Poppins';
+    font-size: 26px;
+    color: black;
+}
+
 
 
 /* NAV BAR */
@@ -62,8 +84,23 @@ arqInterior, p{
 }
 
 
+
+
+
 /* SOBRE MIM */
 
 #sobre{
     padding-top: 60px;
+}
+
+#rosa{
+    background-color: #fcf2e9
+    ;
+    padding-bottom: 50px;
+}
+
+#rosaservico{
+    background-color: #FEFAF6
+    ;
+    padding-bottom: 50px;
 }
