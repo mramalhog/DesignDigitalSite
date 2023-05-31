@@ -1,0 +1,69 @@
+#arqInterior, h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 132%;
+}
+
+arqInterior, p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 132%;
+}
+
+
+/* NAV BAR */
+
+#nav1{
+   
+    border-top: 25px solid #ffffff;
+    
+}
+
+#nav2{
+    background-color: #fcf2e9
+}
+
+/*CONTAINER P1*/
+
+#contBranco{
+    background-color: #DDE1F4;;
+    padding-bottom: 25px;
+}
+
+#roxo1{
+    background-color: #DDE1F4;
+    padding-bottom: 50px;
+}
+
+#roxo{
+    background-color: #f1f3fb;
+    padding-bottom: 100px;
+}
+
+#roxo3{
+    background-color: #f1f3fb;
+    padding-bottom: 100px;
+}
+
+#divisor{
+    padding-top: 50px;
+}
+
+#imgp1, img-fluid{
+    max-width: 90%;
+}
+
+#arqInterior{
+    padding-left: 60px;
+}
+
+
+/* SOBRE MIM */
+
+#sobre{
+    padding-top: 60px;
+}
