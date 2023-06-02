@@ -25,6 +25,7 @@ arqInterior, p{
     background-color: #F1E9DC
 }
 
+
 /*CONTAINER P1*/
 
 #contBranco{
@@ -43,30 +44,6 @@ arqInterior, p{
     padding-bottom: 50px;
 }
 
-#divisor{
-    padding-top: 50px;
-}
-
-#imgp1, img-fluid{
-    max-width: 90%;
-}
-
-#arqInterior{
-    padding-left: 60px;
-}
-
-#arqInterior h1{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 132%;
-    /* identical to box height, or 32px */
-    letter-spacing: -0.02em;
-    color: #000000;
-    padding-top: 20px;
-}
-
 #arqInterior1{
     font-family: 'Poppins';
     font-style: normal;
@@ -79,34 +56,20 @@ arqInterior, p{
 }
 
 
-/* SOBRE MIM */
+/*PÁGINA PROJETOS*/
 
-#sobre{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-#sobre-titulo{
+#arqtexto{
     font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 140%;
-    letter-spacing: -0.02em;
-    color: #000000;
-}
-
-#sobre1{
-    font-family: 'Poppins';
-    font-style: normal;
+    font-style: sans-serif;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 160%;
-    letter-spacing: -0.02em;
+    font-size: 22px;
+    line-height: 140%;
     text-align: justify;
-
-    color: #000000;
+    letter-spacing: -0.02em;
+    color: #5c5b5b;
+    padding-top: 30px;
 }
+
 
 /* SERVIÇOS */
 
@@ -138,6 +101,7 @@ arqInterior, p{
 #vazio{
     height: 55px;
 }
+
 
 /* FALE COM */
 
@@ -245,19 +209,4 @@ arqInterior, p{
 
 #divisao{
     padding-top: 30px;
-}
-
-/*PÁGINA PROJETOS*/
-
-#arqtexto{
-    font-family: 'Poppins';
-    font-style: sans-serif;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 140%;
-    /* or 34px */
-    text-align: justify;
-    letter-spacing: -0.02em;
-    color: #5c5b5b;
-    padding-top: 50px;
 }

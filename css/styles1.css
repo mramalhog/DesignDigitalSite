@@ -6,7 +6,7 @@
     line-height: 132%;
 }
 
-arqInterior, p{
+#arqInterior, p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -14,11 +14,29 @@ arqInterior, p{
     line-height: 132%;
 }
 
+#arqServ, h2{
+    font-family: 'Poppins';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 132%;
+    color: #815757;
+    padding-top: 20px;
+}
+
+#arqServ, h3{
+    font-family: 'Poppins';
+    font-size: 34px;
+    color: black;
+}
+
 
 /* NAV BAR */
 
-#nav1{ 
-    border-top: 25px solid #ffffff;   
+#nav1{
+   
+    border-top: 25px solid #ffffff;
+    
 }
 
 #nav2{
@@ -28,115 +46,50 @@ arqInterior, p{
 /*CONTAINER P1*/
 
 #contBranco{
-    background-color: #F6F3F3;;
+    background-color: #DDE1F4;;
     padding-bottom: 25px;
-}
-
-#fundo1{
-    background-color: #F6F3F3
-    ;
-    padding-bottom: 50px;
-}
-
-#fundo2{
-    background-color: white;
-    padding-bottom: 50px;
 }
 
 #divisor{
     padding-top: 50px;
 }
 
-#imgp1, img-fluid{
-    max-width: 90%;
-}
+/* SERVIÇOS */
 
-#arqInterior{
-    padding-left: 60px;
-}
-
-#arqInterior h1{
+#subtserv{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    line-height: 132%;
-    /* identical to box height, or 32px */
+    line-height: 36px;
+    display: flex;
+    align-items: flex-end;
     letter-spacing: -0.02em;
     color: #000000;
-    padding-top: 20px;
 }
 
-#arqInterior1{
+#rosa{
+    background-color: #F6F3F3;
+    padding-top: 50px;
+}
+
+#fundoserv01{
+    background: white;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 25px;
+    padding-top: 10px;
+}
+
+#arqtexto{
     font-family: 'Poppins';
-    font-style: normal;
+    font-style: sans-serif;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 132%;
-    /* identical to box height, or 32px */
-    letter-spacing: -0.02em;
-    color: #000000;
-}
-
-
-/* SOBRE MIM */
-
-#sobre{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-#sobre-titulo{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
+    font-size: 22px;
     line-height: 140%;
-    letter-spacing: -0.02em;
-    color: #000000;
-}
 
-#sobre1{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 160%;
-    letter-spacing: -0.02em;
     text-align: justify;
-
-    color: #000000;
-}
-
-/* SERVIÇOS */
-
-#servicos{
-    background-color: #F6F3F3
-    ;
-}
-
-#serv{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 132%;
-    padding-top: 60px;
     letter-spacing: -0.02em;
-    color: #815757;
-}
-
-#topo{
-    max-width: 20%;
-    padding-bottom: 30px;
-}
-
-#serv1{
-    height: 200px;
-}
-
-#vazio{
-    height: 55px;
+    color: #5c5b5b;
 }
 
 /* FALE COM */
@@ -148,26 +101,32 @@ arqInterior, p{
 }
 
 #fale, h1{
+
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 53px;
     letter-spacing: 0.08em;
+    
     color: #FFFFFF;
+
 }
 
-#prazer, p{
+#prazer{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    /* identical to box height */
     letter-spacing: 0.08em;
+
     color: #FFFFFF;
 }
 
 #contato{
+
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -225,6 +184,7 @@ arqInterior, p{
     font-weight: 600;
     font-size: 30px;
     line-height: 45px;
+    /* identical to box height */
     letter-spacing: -0.02em;
 }
 
@@ -232,32 +192,10 @@ arqInterior, p{
     padding-bottom: 15px;
 }
 
-#tag{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 132%;
-    letter-spacing: -0.02em;
-    color: #815757;
-    padding-top: 100px;
+#serv1{
+    height: 100px;
 }
 
-#divisao{
-    padding-top: 30px;
-}
-
-/*PÁGINA PROJETOS*/
-
-#arqtexto{
-    font-family: 'Poppins';
-    font-style: sans-serif;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 140%;
-    /* or 34px */
-    text-align: justify;
-    letter-spacing: -0.02em;
-    color: #5c5b5b;
-    padding-top: 50px;
+#vazio{
+    height: 55px;
 }
